@@ -1,3 +1,3 @@
-# Python - Chapter 1
+# Python Fundamentals
 
-## Numbers, Strings, Functions and Modules	
+## Chapter 1 - Numbers, Strings, Functions and Modules (https://github.com/weslleysk/Python/blob/master/Python_ch1.py)
