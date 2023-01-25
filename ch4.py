@@ -2,7 +2,8 @@
 
 # dictionary = {"key":"value", "key2":"value2", "key3":"value3"}
 
-#dict() len() del d[key]   d[key] = value   d[key1][key2]...  d.clear() d.copy() d[key].remove(value) d[key].append(value)
+#dict() len() del d[key]   d[key] = value  d.pop(key)   d[key1][key2]...  d.clear() d.copy() d[key].remove(value) d[key].append(value) d = {}.fromkeys(['key', 'key2'], 'values')
+#d.get(key) d.items() d.keys() 
 
 items = [('key1', 'value1'), ('key2', 'value2')]
 d = dict(items)
@@ -53,6 +54,14 @@ if request == "b" : key = "book"
 if request == "q" : key = "quantity"
 
 if author in oeuvre : print("{} : {}".format(author, oeuvre[author][key] ))
+else : print("Author is not inside the oeuvre.")
+
+#def new_func(oeuvre, author, key):
+#    if oeuvre.get(author) != None : print("{} : {}".format( author, oeuvre[author][key] ))
+#    else : print("Author is not inside the oeuvre.")
+
+#new_func(oeuvre, author, key) 
+
 
 #Dictionary Methods
 
@@ -79,5 +88,26 @@ x = d.copy()
 y = deepcopy(d)
 d["user"].append(3)
 print("x: {} y: {}".format(x, y))
+
+
+d = {}.fromkeys(["key1", "key2"], 0)
+print(d)
+
+
+d = {}
+print(d.get("key", None))
+d["key"] = 1
+print(d.get("key"))
+
+d = {"a":1, "b":2, "c":3}
+print(d.items())
+print(d.keys())
+
+d.pop("a")
+print(d)
+
+
+
+
 
 
