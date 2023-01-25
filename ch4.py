@@ -2,7 +2,7 @@
 
 # dictionary = {"key":"value", "key2":"value2", "key3":"value3"}
 
-#dict() len() del d[key] d[key] = value   d[key1][key2]...
+#dict() len() del d[key]   d[key] = value   d[key1][key2]...  d.clear() d.copy()
 
 items = [('key1', 'value1'), ('key2', 'value2')]
 d = dict(items)
@@ -53,5 +53,17 @@ if request == "b" : key = "book"
 if request == "q" : key = "quantity"
 
 if author in oeuvre : print("{} : {}".format(author, oeuvre[author][key] ))
+
+#Dictionary Methods
+
+d = {"a":"b", "c":{"d":"e"}, "f":"g"}
+print(d)
+print(d["c"]["d"])
+d.clear()
+print(d)
+
+d = {"a":"b"}
+x = d.copy()
+
 
 
