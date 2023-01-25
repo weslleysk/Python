@@ -2,7 +2,7 @@
 
 # dictionary = {"key":"value", "key2":"value2", "key3":"value3"}
 
-#dict() len() del d[key]   d[key] = value   d[key1][key2]...  d.clear() d.copy()
+#dict() len() del d[key]   d[key] = value   d[key1][key2]...  d.clear() d.copy() d[key].remove(value) d[key].append(value)
 
 items = [('key1', 'value1'), ('key2', 'value2')]
 d = dict(items)
@@ -62,8 +62,22 @@ print(d["c"]["d"])
 d.clear()
 print(d)
 
-d = {"a":"b"}
+d = { "user":"a", "password":"p", "config":[1,2,3] }
 x = d.copy()
+x["user"] = "b"
+x["password"] = "q"
+x["config"].remove(1)
+print(x)
+print(x["config"][0]) #list
 
+
+
+from copy import deepcopy   #from module import function
+
+d = { "user": [1,2] }
+x = d.copy()
+y = deepcopy(d)
+d["user"].append(3)
+print("x: {} y: {}".format(x, y))
 
 
