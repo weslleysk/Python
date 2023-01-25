@@ -2,8 +2,10 @@
 
 # dictionary = {"key":"value", "key2":"value2", "key3":"value3"}
 
-#dict() len() del d[key]   d[key] = value  d.pop(key)   d[key1][key2]...  d.clear() d.copy() d[key].remove(value) d[key].append(value) d = {}.fromkeys(['key', 'key2'], 'values')
-#d.get(key) d.items() d.keys() 
+#dict() len() del d[key]   d[key] = value  d.pop(key)   d[key1][key2]...  d.clear() d.copy() d[key].remove(value) d[key].append(value) d.update(d2)
+#d.get(key) d.items() d.keys() d.values() 
+
+#d = {}.fromkeys(['key', 'key2'], 'values') d.setdefault(key, value)
 
 items = [('key1', 'value1'), ('key2', 'value2')]
 d = dict(items)
@@ -71,6 +73,7 @@ print(d["c"]["d"])
 d.clear()
 print(d)
 
+
 d = { "user":"a", "password":"p", "config":[1,2,3] }
 x = d.copy()
 x["user"] = "b"
@@ -99,12 +102,36 @@ print(d.get("key", None))
 d["key"] = 1
 print(d.get("key"))
 
+
 d = {"a":1, "b":2, "c":3}
 print(d.items())
 print(d.keys())
 
+
 d.pop("a")
 print(d)
+
+
+d = {}
+d.setdefault("key","value")
+print(d)
+d["key"] = 1
+d.setdefault("key","value")
+print(d)
+
+
+d = {
+    "author":"SK",
+    "book":"concept of anxiety",
+    "quantity":10
+    }
+x = { "quantity": 5 }
+
+d.update(x)
+
+print(d)
+print(d.values())
+
 
 
 
