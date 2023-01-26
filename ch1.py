@@ -1,13 +1,13 @@
 #Operations
-x = 10
-y = 2
+x = 2
+y = 3
 
 print(x+y)
 print(x-y)
 
-print(x/y)
-print(x//y)
-print(x%y)
+print(x/y)  #division
+print(x//y) #result
+print(x%y)  #rest
 
 print(x**y)
 print(pow(x, y))
