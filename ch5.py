@@ -241,6 +241,27 @@ for name, book in zip(s, b):
     print(name, " : ", book)
 
 print("")
+
+
+
+
+l = [30, 45, 100, 90, 50]
+
+print(sorted(l))
+
+s = "Kierkegaard"
+
+print(''.join(list(reversed(s))))
+
+
+
+from math import sqrt
+for n in range(99, 0, -1):
+    root = sqrt(n)
+    if root == int(root):
+        print(root)
+
+
     
 
 
