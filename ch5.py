@@ -1,5 +1,11 @@
 #Chapter 5 - Conditionals, Loops, and some other Statements
 
+# line comment
+
+""" block
+    comment
+"""
+
 #print
 
 print("Soren", "Kierkegaard")
@@ -262,7 +268,41 @@ for n in range(99, 0, -1):
         print(root)
 
 
+
+""" for x in seq:
+    if condition1: continue
+    if condition2: continue
+    if condition3: continue
+
+    do_something()
+    do_something_else()
+    do_another_thing()
+"""
     
+""" for x in seq:
+        if not (condition1 or condition2 or condition3):
+        do_something()
+        do_something_else()
+        do_another_thing() 
+"""
+
+while True:
+    word = input("Write the name of a book or author: ")
+    if word == "" or word == " ":
+        break
+
+
+for n in range(99, 80, -1):
+    root = sqrt(n)
+    if root == int(root):
+        print(n)
+        break
+    else:
+        continue
+
+
+
+
 
 
 
