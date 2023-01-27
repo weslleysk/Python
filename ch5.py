@@ -318,6 +318,16 @@ print(seq3)
 
 
 
+# del - deletes the variable name
+
+x = [1, 2, 3]
+y = []
+y = x
+del x
+print(y)
+
+
+
 
 
 
