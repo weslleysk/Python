@@ -241,11 +241,8 @@ for name, book in zip(s, b):
     print(name, " : ", book)
 
 print("")
+    
 
-
-
-string = "---HP.Lovecraft"
-index = 0
 
 
 
