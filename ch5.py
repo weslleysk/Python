@@ -10,8 +10,10 @@ z = "Soren Kierkegaard"
 
 print(x, y, z)
 
-print("Same ", end="")
+print("Same ", end="") #same line
 print("Line")
+
+print("") #new line
 
 #module
 
@@ -150,6 +152,102 @@ else:
 
 hikikomori = int(input("Through how many years have you been an hikikomori? "))
 assert 0 < hikikomori <= 100, "Do not tell lies."
+
+
+
+
+
+# Loops
+
+
+
+# while
+
+book = ""
+
+while not book:
+    book = input("Write the name of one book: ")
+print("{} is the book.".format(book))
+
+print("")
+
+
+x = 0
+
+while x <= 5:
+    print(x, end=" ")
+    x += 1
+
+print("")
+
+
+
+s = [1, 2, 3, 4, 5]
+
+i = 0
+
+while i <= len(s) - 1:
+    print(s[i], end=" ")
+    i += 1
+
+print("")
+
+
+
+
+# for
+
+sequence = [1, 2, 3, 4, 5]
+
+for s in sequence:
+    print(s, end=" ")
+
+
+
+print("")
+print("")
+
+
+
+# Dictionary iteration
+
+d = {"key1":1, "key2": 2, "key3": 3}
+
+for key in d:
+    print(key, " : ", d[key])
+
+print("")
+
+for key, value in d.items():
+    print(key, " : ", d[key])
+
+print("")
+
+
+
+# parallel iteration
+
+s = ["Soren", "Huxley", "Lewis"]
+b = ["Concept of Anxiety", "Devils of Loudun", "The Abolition of Man"]
+
+for i in range(0, len(s)):
+    print(s[i], " : ", b[i])
+
+print("")
+
+print(list(zip(s, b)))
+
+for name, book in zip(s, b):
+    print(name, " : ", book)
+
+print("")
+
+
+
+string = "---HP.Lovecraft"
+index = 0
+
+
 
 
 
