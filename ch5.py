@@ -302,6 +302,19 @@ for n in range(99, 80, -1):
 
 
 
+# List Comprehension - make a list from another list
+
+seq = [x*x for x in range(0, 10, 1) if x % 3 == 0]
+
+print(seq)
+
+seq2 = [(x, y) for x in range(0,2) for y in range(0,2)]
+
+print(seq2)
+
+seq3 = {i : "{} : sqrt{}".format(i, i**2)     for i in range(0, 10, 1)}
+
+print(seq3)
 
 
 
