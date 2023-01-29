@@ -60,3 +60,54 @@ print(look(storage, "first", "Weslley"))
 print(look(storage, "last", "Kierkegaard"))
 print(look(storage, "middle", ""))
 
+
+# Recursion - function calls function
+
+def factorial(n):
+    result = n
+    for i in range(1, n):
+        result *= i
+    return result
+print(factorial(4))
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+print(factorial(3))
+
+def power(x, n):
+    result = 1
+    for i in range(n):
+        result *= x
+    return result
+print(power(2,3))
+
+def power(x, n):
+    if n == 0:
+        return 1
+    else:
+        return x * power(x, n - 1)
+print(power(2,4))
+
+
+# binary search
+
+def search(sequence, number, lower=0, upper=None):
+
+    if upper == None : upper = len(sequence) - 1
+
+    if lower == upper:
+        assert number == sequence[upper]
+        return upper
+    else:
+        middle = (lower + upper) // 2
+    if number > sequence[middle]:
+        return search(sequence, number, middle + 1, upper)
+    else:
+        return search(sequence, number, lower, middle)
+
+seq = [1, 2, 3 , 4, 5, 6, 7, 8, 9, 10]
+seq.sort()
+print(search(seq, 3))
