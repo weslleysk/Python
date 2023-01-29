@@ -13,4 +13,8 @@ def fibs(num):
     return result
 print(fibs(10))
 
+def sqre(x):
+    "calculates x*x"
+    return x*x
+print(sqre.__doc__)
 
