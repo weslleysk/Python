@@ -1,11 +1,11 @@
-#Git
+# Git
 
-###git pull
+### git pull
 
-###git status
+### git status
 
-###git add file
+### git add file
 
-###git commit -m "comment"
+### git commit -m "comment"
 
-###git push
+### git push
