@@ -29,3 +29,8 @@ print("")
 
 print(author.name)
 author.greet()
+
+print("")
+
+author.name = "Huxley"
+author.greet()
