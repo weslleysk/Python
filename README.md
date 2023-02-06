@@ -7,3 +7,4 @@
 ## Chapter 5 - [Conditionals, Loops, Statements](https://github.com/weslleysk/Python/blob/master/ch5.py)
 ## Chapter 6 - [Function](https://github.com/weslleysk/Python/blob/master/ch6.py)
 ## Chapter 7 - [Class](https://github.com/weslleysk/Python/blob/master/ch7.py)
+## Chapter 8 - [Exception](https://github.com/weslleysk/Python/blob/master/ch8.py)
