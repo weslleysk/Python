@@ -8,3 +8,4 @@
 ## Chapter 6 - [Function](https://github.com/weslleysk/Python/blob/master/ch6.py)
 ## Chapter 7 - [Class](https://github.com/weslleysk/Python/blob/master/ch7.py)
 ## Chapter 8 - [Exception](https://github.com/weslleysk/Python/blob/master/ch8.py)
+## Chapter 9 - [Methods, Properties, Iterators](https://github.com/weslleysk/Python/blob/master/ch9.py)
