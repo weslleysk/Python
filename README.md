@@ -1,5 +1,7 @@
 # Python Fundamentals
 
+## Python Documentation - https://docs.python.org (Python Language Reference, Python Tutorial)
+
 ## Chapter 1 - [Numbers, Strings, Functions, Modules](https://github.com/weslleysk/Python/blob/master/ch1.py)
 ## Chapter 2 - [Lists](https://github.com/weslleysk/Python/blob/master/ch2.py)
 ## Chapter 3 - [String](https://github.com/weslleysk/Python/blob/master/ch3.py)
