@@ -12,3 +12,4 @@
 ## Chapter 8 - [Exception](https://github.com/weslleysk/Python/blob/master/ch8.py)
 ## Chapter 9 - [Methods, Properties, Iterators](https://github.com/weslleysk/Python/blob/master/ch9.py)
 ## Chapter 10 - [Modules](https://github.com/weslleysk/Python/blob/master/ch10.py)
+## Chapter 11 - [Files](https://github.com/weslleysk/Python/blob/master/ch11.py)
